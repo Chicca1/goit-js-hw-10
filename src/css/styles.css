@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: Verdana, sans-serif;
   margin: 0;
   padding: 20px;
 }
@@ -16,19 +16,16 @@ h1 {
   border: 5px solid #f3f3f3;
   border-top: 5px solid #3498db;
   border-radius: 50%;
-  animation: spin 2s linear infinite;
+
 }
 
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
+
 
 .breed-select {
   display: block;
   /* margin: 20px auto; */
   padding: 10px;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .cat-info {
@@ -45,7 +42,7 @@ h1 {
 
 
 .cat-image {
-  width: 300px;
+  width: 200px;
   height: auto;
   margin-bottom: 10px;
 }
